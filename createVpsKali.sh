@@ -22,7 +22,7 @@ ls memShell_for_linux || (mkdir memShell_for_linux && cd memShell_for_linux &&wg
 ls cobaltstrike-cracked || (git clone https://gitee.com/wangofjian/cobaltstrike-cracked.git --depth=1 )
 # ls cobaltstrike312 || (mkdir cobaltstrike312 && cd cobaltstrike312 && wget "https://gitee.com/ssooking/cobaltstrike-cracked/blob/master/cobaltstrike3.12_cracked-master.zip" && unzip cobaltstrike3.12_cracked-master.zip )
 # cs plugins
-ls taowu  || ( git clone https://github.com/wangofjian/taowu-cobalt-strike.git )
+ls taowu-cobalt-strike  || ( git clone https://github.com/wangofjian/taowu-cobalt-strike.git )
 
 # reGeorg
 ls Neo-reGeorg || ( git clone https://github.com/wangofjian/Neo-reGeorg.git )
@@ -32,7 +32,7 @@ ls reGeorg || (git clone https://github.com/wangofjian/reGeorg.git )
 ls ew  || ( git clone https://github.com/wangofjian/ew.git )
 
 # nc 。exe
-ls nc  || ( git clone https://github.com/wangofjian/nc.exe.git )
+ls nc.exe  || ( git clone https://github.com/wangofjian/nc.exe.git )
 
 
 # frp
