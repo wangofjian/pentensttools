@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install software
-sudo apt-get install armitage p7zip -y 
+sudo apt-get install armitage p7zip python3-pip -y 
 
 
 # mkdir /opt/pentest
@@ -39,8 +39,13 @@ ls nc.exe  || ( git clone https://github.com/wangofjian/nc.exe.git )
 ls frp || ( git clone https://github.com/wangofjian/frp.git)
 
 
-
-
+# python3-pip
+#python pip virtualenv
+pip install virtualenv
+# add to $PATH
+sudo ln -s /home/kali/.local/bin/virtualenv /usr/local/bin/virtualenv
+virtualenv -p /usr/bin/python3 ~/venv3
+virtualenv -p /usr/bin/python ~/venv2
 
 
 
