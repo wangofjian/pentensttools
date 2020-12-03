@@ -19,8 +19,30 @@ ls memShell_for_linux || (mkdir memShell_for_linux && cd memShell_for_linux &&wg
 
 
 ## CS downloads
-ls cobaltstrike-cracked || (git clone https://gitee.com/ssooking/cobaltstrike-cracked.git --depth=1 )
+ls cobaltstrike-cracked || (git clone https://gitee.com/wangofjian/cobaltstrike-cracked.git --depth=1 )
 # ls cobaltstrike312 || (mkdir cobaltstrike312 && cd cobaltstrike312 && wget "https://gitee.com/ssooking/cobaltstrike-cracked/blob/master/cobaltstrike3.12_cracked-master.zip" && unzip cobaltstrike3.12_cracked-master.zip )
+# cs plugins
+ls taowu-master  || ( git clone https://github.com/wangofjian/taowu-cobalt-strike.git )
+
+# reGeorg
+ls Neo-reGeorg-master || ( git clone https://github.com/wangofjian/Neo-reGeorg.git )
+ls reGeorg-master || (git clone https://github.com/wangofjian/reGeorg.git )
+
+# earthWorm EW
+ls ew-master  || ( git clone https://github.com/wangofjian/ew.git )
+
+# nc 。exe
+ls nc-master  || ( git clone https://github.com/wangofjian/nc.exe.git )
+
+
+# frp
+ls frp-master || ( git clone https://github.com/wangofjian/frp.git)
+
+
+
+
+
+
 
 
 
